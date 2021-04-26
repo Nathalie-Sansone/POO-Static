@@ -42,4 +42,4 @@ $street = new PedestrianWay();
 $street->addVehicle($tornado);
 $street->getCurrentVehicles();
 
-var_dump(Speedometer::convertToMiles(10));
+var_dump(Speedometer::convertKmToMiles(10));
